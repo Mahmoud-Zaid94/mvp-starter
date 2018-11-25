@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/test');
+mongoose.connect('mongodb://mmmm:mmmm44@ds041167.mlab.com:41167/rbk-project');
 
 var db = mongoose.connection;
 
@@ -12,11 +12,13 @@ db.once('open', function() {
 });
 
 var itemSchema = mongoose.Schema({
-  quantity: Number,
-  description: String
+  name: String,
+  url: String
 });
 
 var Item = mongoose.model('Item', itemSchema);
+
+
 
 var selectAll = function(callback) {
   Item.find({}, function(err, items) {

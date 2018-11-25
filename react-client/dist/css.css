@@ -1,0 +1,30 @@
+#app {
+    border-left: 20px solid red;
+    background-color: lightgrey;
+    padding: 200px;
+  
+    color : blue;
+    font-size: 40px;
+}
+#app2 {
+    border-left: 20px solid blue;
+    background-color: rgb(129, 129, 129);
+    padding-left : 100px;
+    padding-top: 20px;
+
+}
+
+#a {
+    border-left: 25px solid #9132cd;
+    background-color: rgb(129, 129, 129);
+    padding-left: 10px;
+    margin: 20px;
+   
+}
+#b {
+    border-left: 25px solid #191f75;
+    background-color: rgb(129, 129, 129);
+    padding-left: 10px;
+    margin: 10px;
+    size: 500px;
+}
